@@ -102,7 +102,7 @@ class _LoginPageState extends State<LoginPage> {
                     ),
                     const SizedBox(height: 30),
                     Padding(
-                      padding: EdgeInsets.symmetric(horizontal: 35),
+                      padding: const EdgeInsets.symmetric(horizontal: 35),
                       child: MaterialButton(
                         minWidth: double.infinity,
                         onPressed: () {
@@ -112,9 +112,9 @@ class _LoginPageState extends State<LoginPage> {
                             print('Email: $_email, Password: $_password');
                           }
                         },
-                        child: Text('Login'),
                         color: Colors.teal,
                         textColor: Colors.white,
+                        child: Text('Login'),
                       ),
                     ),
                   ],
